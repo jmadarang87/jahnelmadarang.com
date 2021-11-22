@@ -1,0 +1,5 @@
+const FamilyImages = [
+    {id:1,imgSrc: '/gallery-family/img1.jpg',},{id:2,imgSrc: '/gallery-family/img2.jpg',},{id:3,imgSrc: '/gallery-family/img3.jpg',},{id:4,imgSrc: '/gallery-family/img4.jpg',},{id:5,imgSrc: '/gallery-family/img5.jpg',},{id:6,imgSrc: '/gallery-family/img6.jpg',},{id:7,imgSrc: '/gallery-family/img7.jpg',},{id:8,imgSrc: '/gallery-family/img8.jpg',},{id:9,imgSrc: '/gallery-family/img9.jpg',},{id:10,imgSrc: '/gallery-family/img10.jpg',},{id:11,imgSrc: '/gallery-family/img11.jpg',},{id:12,imgSrc: '/gallery-family/img12.jpg',},{id:13,imgSrc: '/gallery-family/img13.jpg',},{id:14,imgSrc: '/gallery-family/img14.jpg',},{id:15,imgSrc: '/gallery-family/img15.jpg',},{id:16,imgSrc: '/gallery-family/img16.jpg',},{id:17,imgSrc: '/gallery-family/img17.jpg',},{id:18,imgSrc: '/gallery-family/img18.jpg',},{id:19,imgSrc: '/gallery-family/img19.jpg',},{id:20,imgSrc: '/gallery-family/img20.jpg',},{id:21,imgSrc: '/gallery-family/img21.jpg',},{id:22,imgSrc: '/gallery-family/img22.jpg',},{id:23,imgSrc: '/gallery-family/img23.jpg',},{id:24,imgSrc: '/gallery-family/img24.jpg',},{id:25,imgSrc: '/gallery-family/img25.jpg',},
+]
+
+export default FamilyImages;
