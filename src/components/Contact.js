@@ -5,7 +5,6 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { DataStore } from '@aws-amplify/datastore';
 import { Contact } from '../models';
 
-
 function Contacts() {
 	React.useEffect(() => {
 		window.scrollTo(0, 0);
@@ -34,11 +33,6 @@ function Contacts() {
 		visitorName.value = "";
 		visitorEmail.value = "";
 		visitorMessage.value= "";
-		
-		console.log(newContact);
-
-
-
 	}
 
 	return (
