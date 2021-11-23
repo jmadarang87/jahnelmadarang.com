@@ -1,39 +1,53 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
-// import submit from '../static/js/script.js';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { DataStore } from '@aws-amplify/datastore';
 import { Contact } from '../models';
+
 
 function Contacts() {
 	React.useEffect(() => {
 		window.scrollTo(0, 0);
 		// fetchItems();
 	}, []);
-
+	
 	const submit = async (e) => {
 		e.preventDefault();
 
 		let visitorName = document.getElementById('visitorName');
 		let visitorEmail = document.getElementById('visitorEmail');
 		let visitorMessage = document.getElementById('visitorMessage');
+
+		const regexOne= /\w@/;
+		const regexTwo = /^[^@]+@[^@]+\.[^.][^.]+$/i;
+		const validOne = regexOne.test(visitorEmail.value);
+		const validTwo = regexTwo.test(visitorEmail.value);
 	
-		const contactInfo = {
-			name: visitorName.value,
-			email: visitorEmail.value,
-			message: visitorMessage.value
+		if ( visitorName.value === "" || visitorEmail.value === "" || visitorMessage.value === "") {
+			window.alert(`Oops! Looks like you forgot to fill out one of the fields. Please make sure to fill out the form completely so I can contact you properly, thank you!`)
+		} else if ( !validOne || !validTwo ) {
+			window.alert(`Invalid Email!`)
+		} else {
+			const contactInfo = {
+				name: visitorName.value,
+				email: visitorEmail.value,
+				message: visitorMessage.value
+			}
+
+			DataStore.save(
+				new Contact(contactInfo)
+			)
+
+			window.alert(`YAY! Thanks for your message, I'll get back to you as soon as I can!`)
+
+			visitorName.value = "";
+			visitorEmail.value = "";
+			visitorMessage.value= "";
+
 		}
 
-		const newContact = await DataStore.save(
-			new Contact(contactInfo)
-		)
-
-		window.alert(`Thanks for your message! I'll get back to you as soon as I can!`)
-
-		visitorName.value = "";
-		visitorEmail.value = "";
-		visitorMessage.value= "";
 	}
+
 
 	return (
 		<section>
@@ -49,13 +63,6 @@ function Contacts() {
 					></script>
 				</Helmet>
 			</HelmetProvider>
-			{/* <div className='div'>
-				{items.map((item, i) => (
-					<div key={i}>
-						<p>{item.name}</p>
-					</div>
-				))}
-			</div> */}
 			<br />
 			<div className='form-container'>
 				<form className='contact-form'>
@@ -69,25 +76,25 @@ function Contacts() {
 							<div className='contact-left'>
 								<label htmlFor='name'>Your Name:</label>
 								<br />
-								<input type='text' id='visitorName' name='visitorName' />
+								<input type='text' id='visitorName' name='visitorName' required />
 								<br />
 								<br />
 								<label htmlFor='email'>Your Email:</label>
 								<br />
-								<input type='email' id='visitorEmail' name='visitorEmail' />
+								<input type='email' id='visitorEmail' name='visitorEmail' required />
 								<br />
 							</div>
 							<div className='contact-right'>
 								<label form='message'>Message:</label>
 								<br />
-								<textarea id='visitorMessage' name='visitorMessage' />
+								<textarea id='visitorMessage' name='visitorMessage' required />
 							</div>
 						</div>
 						<div className='button-center'>
-							<div
+							{/* <div
 								className='g-recaptcha'
-								data-sitekey='6Lda4gQdAAAAADUmUFJQCmWxPv_XBN58J6NTasgt'
-							></div>
+								data-sitekey='6Lc0c1EdAAAAAMWfILkbs_B4Gxq1x8kSvtCNkAB1'
+							></div> */}
 							<button type='submit' onClick={submit}>
 								Submit
 							</button>
