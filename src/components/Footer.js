@@ -11,6 +11,7 @@ function Footer() {
 						<br />
 						in HTML, CSS, JavaScript and React!
 						<br />
+						<a href='https://github.com/jmadarang87/jahnelmadarang.com' target='_blank' rel='noopener noreferrer'><p>View source code on GitHub.</p></a>
 					</p>
 
 					<div className='footer-social'>
