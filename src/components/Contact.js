@@ -26,7 +26,7 @@ function Contacts() {
 		if ( visitorName.value === "" || visitorEmail.value === "" || visitorMessage.value === "") {
 			window.alert(`Oops! Looks like you forgot to fill out one of the fields. Please make sure to fill out the form completely so I can contact you properly, thank you!`)
 		} else if ( !validOne || !validTwo ) {
-			window.alert(`Invalid Email!`)
+			window.alert(`Uh oh! I think your email is invalid..`)
 		} else {
 			const contactInfo = {
 				name: visitorName.value,
