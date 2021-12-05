@@ -1,5 +1,17 @@
 const PortfolioList = [
     {
+        title: "OOP: Phrase Hunter",
+        languages: ["javascript"],
+        image: ["images/phrase_hunter.png"],
+        github: "https://github.com/jmadarang87/OOP-Game-Show-App",
+    },
+    {
+        title: "OOP: Four in a Row",
+        languages: ["html", "css", "javascript"],
+        image: ["images/four_in_a_row.png"],
+        github: "https://github.com/jmadarang87/OOP-four-in-a-row-game",
+    },
+    {
         title: "Mockup Website: Dribble.com",
         languages: ["html", "css", "javascript"],
         image: ["images/mockup_dribble1.png", "images/mockup_dribble2.png"],
@@ -30,12 +42,7 @@ const PortfolioList = [
         image: ["images/random-quote-generator1.png", "images/random-quote-generator2.png", "images/random-quote-generator3.png"],
         github: "https://github.com/jmadarang87/a-random-quote-generator",
     },
-    {
-        title: "Phrase Hunter",
-        languages: ["javascript"],
-        image: ["images/phrase_hunter.png"],
-        github: "https://github.com/jmadarang87/OOP-Game-Show-App",
-    },
+
 ]
 
 export default PortfolioList;
