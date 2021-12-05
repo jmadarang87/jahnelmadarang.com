@@ -18,15 +18,7 @@ function Home() {
 					<Link to='/family'>
 						<li>family</li>
 					</Link>
-					<Link to='#'>
-						<li>friends</li>
-					</Link>
-					<Link to='/outdoors'>
-						<li>the outdoors</li>
-					</Link>
-					<Link to='/road-trippin'>
-						<li>road tripping</li>
-					</Link>
+
 					<Link to='#'>
 						<li>learning new things</li>
 					</Link>
@@ -35,6 +27,15 @@ function Home() {
 					</Link>
 					<Link to='/doing-good'>
 						<li>doing good</li>
+					</Link>
+					<Link to='#'>
+						<li>friends</li>
+					</Link>
+					<Link to='/outdoors'>
+						<li>the outdoors</li>
+					</Link>
+					<Link to='/road-trippin'>
+						<li>road tripping</li>
 					</Link>
 				</ul>
 			</div>
