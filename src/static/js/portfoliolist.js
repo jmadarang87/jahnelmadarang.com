@@ -7,7 +7,7 @@ const PortfolioList = [
     },
     {
         title: "OOP: Four in a Row",
-        languages: ["html", "css", "javascript"],
+        languages: ["javascript"],
         image: ["images/four_in_a_row.png"],
         github: "https://github.com/jmadarang87/OOP-four-in-a-row-game",
     },
