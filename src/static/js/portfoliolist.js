@@ -1,9 +1,9 @@
 const PortfolioList = [
     {
-        title: "CRUD: Plant App",
+        title: "CRUD: Plant Application",
         languages: ["MySQL, Express, React, Node"],
         image: ["images/plant_app.png"],
-        github: "https://github.com/jmadarang87/CRUD-plant-app",
+        github: "https://github.com/jmadarang87/CRUD-plant-application",
     },
     {
         title: "OOP: Phrase Hunter",
