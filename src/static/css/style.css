@@ -480,6 +480,10 @@ button:hover {
 		width: 100vw;
 	}
 
+	div.project-details a:hover {
+		color: #9d46ff;
+	}
+
 	#portfolio .flex-row:nth-child(even) {
 		width: 100vw;
 		display: flex;
