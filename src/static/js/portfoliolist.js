@@ -11,7 +11,7 @@ const PortfolioList = [
         languages: ["javascript"],
         image: ["images/phrase_hunter.png"],
         github: "https://github.com/jmadarang87/OOP-Game-Show-App",
-        link: "https://four-in-a-row-jm.herokuapp.com/"
+        link: "https://phrase-hunter-jm.herokuapp.com/"
     },
     {
         title: "OOP: Four in a Row",

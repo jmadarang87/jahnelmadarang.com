@@ -15,7 +15,7 @@ const Portfolio = () => {
 					return (
 						<div className='flex-row' key={i}>
 							<div className='project-details'>
-								<a href={project.github}><h2>{project.title}</h2></a>
+								<a href={project.github} target="_blank"><h2>{project.title}</h2></a>
 								<span className='project-languages'>
 									<p>
 										-
