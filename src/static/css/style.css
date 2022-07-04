@@ -129,6 +129,10 @@ footer {
 	background-color: #ffd832;
 }
 
+div.project-details a:hover {
+	color: #9d46ff;
+}
+
 #portfolio .flex-row:nth-child(even) {
 	display: flex;
 	flex-direction: row-reverse;
@@ -478,10 +482,6 @@ button:hover {
 
 	.project-details {
 		width: 100vw;
-	}
-
-	div.project-details a:hover {
-		color: #9d46ff;
 	}
 
 	#portfolio .flex-row:nth-child(even) {
