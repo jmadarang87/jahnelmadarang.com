@@ -15,7 +15,7 @@ const Portfolio = () => {
 					return (
 						<div className='flex-row' key={i}>
 							<div className='project-details'>
-								<h2>{project.title}</h2>
+								<a href={project.github}><h2>{project.title}</h2></a>
 								<span className='project-languages'>
 									<p>
 										-
@@ -27,7 +27,7 @@ const Portfolio = () => {
 							</div>
 							<div className='project-preview' key={i}>
 								<a
-									href={project.github}
+									href={project.link}
 									className='center-img'
 									target='_blank'
 									rel='noopener noreferrer'
