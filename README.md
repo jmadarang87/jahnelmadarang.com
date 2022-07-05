@@ -1,9 +1,34 @@
-# Getting Started with Create React App
+# jahnelmadarang.com
+This is the codesource for my mobile-responsive personal website/portfolio bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Features image galleries, portfolio, resume and contact form. My live site and can be viewed at [jahnelmadarang.com](https:/www.jahnelmadarang.com).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
+Frontend: React, JavaScript, CSS, HTML
+
+Backend: Amplify Studio
+
+Deployed on AWS Amplify
+
+## Features
+* Mobile-responsive
+* Google Tag Manager Implementation
+* Dynamically styled Portfolio page to easily add featured projects
+* Contact form
+
+## What I learned
+* React Components
+* Router, Switch and Route from react-router-dom
+* Media Queries
+* Deployment on AWS Amplify
+* Content form backend created with AWS Studio
+
+## Future Improvements
+Lazy Load gallery images.
+
+## Preview
+<img width="1420" alt="jahnelmadarang-preview" src="https://user-images.githubusercontent.com/22069784/177231516-c1d77409-a8c3-4de8-8c8f-6b34a1a08fac.png">
+
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
@@ -68,4 +93,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio
