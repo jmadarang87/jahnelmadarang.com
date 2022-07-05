@@ -2,11 +2,9 @@
 This is the codesource for my mobile-responsive personal website/portfolio bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Features image galleries, portfolio, resume and contact form. My live site and can be viewed at [jahnelmadarang.com](https:/www.jahnelmadarang.com).
 
 ## Technologies Used
-Frontend: React, JavaScript, CSS, HTML
-
-Backend: Amplify Studio
-
-Deployed on AWS Amplify
+* Frontend: React, JavaScript, CSS, HTML
+* Backend: Amplify Studio
+* Deployed on AWS Amplify
 
 ## Features
 * Mobile-responsive
@@ -22,11 +20,10 @@ Deployed on AWS Amplify
 * Content form backend created with AWS Studio
 
 ## Future Improvements
-Lazy Load gallery images.
+* Lazy Load gallery images.
 
 ## Preview
 <img width="1420" alt="jahnelmadarang-preview" src="https://user-images.githubusercontent.com/22069784/177231516-c1d77409-a8c3-4de8-8c8f-6b34a1a08fac.png">
-
 
 ## Available Scripts
 In the project directory, you can run:
