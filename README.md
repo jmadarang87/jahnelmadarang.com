@@ -10,7 +10,7 @@ This is the codesource for my mobile-responsive personal website/portfolio boots
 * Mobile-responsive
 * Google Tag Manager Implementation
 * Dynamically styled Portfolio page to easily add featured projects
-* Contact form
+* Contact form that connects to AWS Studio database
 
 ## What I learned
 * React Components
