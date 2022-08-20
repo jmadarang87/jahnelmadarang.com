@@ -2,7 +2,7 @@ const PortfolioList = [
 	{
 		title: 'Slackbot',
 		languages: ['javascript'],
-		image: ['jahnellybot.png'],
+		image: ['images/jahnellybot.png'],
 		github: 'https://github.com/jmadarang87/SlackBot',
 		link: '',
 	},
